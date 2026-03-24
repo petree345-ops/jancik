@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Úvod | Zdravotní péče</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-slate-800">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="index.html" class="text-lg font-semibold">Zdravotní péče</a>
+        <nav class="flex items-center gap-2 sm:gap-4 text-sm sm:text-base">
+          <a href="index.html" class="px-3 py-2 rounded-xl hover:bg-slate-100 transition-all duration-300">Úvod</a>
+          <a href="chirurgie.html" class="px-3 py-2 rounded-xl hover:bg-blue-100 transition-all duration-300">Chirurgie</a>
+          <a href="rehabilitace.html" class="px-3 py-2 rounded-xl hover:bg-green-100 transition-all duration-300">Rehabilitace</a>
+          <a href="kontakt.html" class="px-3 py-2 rounded-xl hover:bg-slate-100 transition-all duration-300">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="max-w-6xl mx-auto px-4 pt-16 pb-12">
+        <div class="bg-white rounded-2xl shadow-sm p-8 md:p-12">
+          <h1 class="text-3xl md:text-5xl font-bold leading-tight">Moderní péče o vaše zdraví na jednom místě</h1>
+          <p class="mt-5 text-lg text-slate-600 max-w-3xl">
+            Spojujeme chirurgii a rehabilitaci pro co nejrychlejší návrat k běžnému životu.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a
+              href="kontakt.html"
+              class="bg-blue-600 text-white px-6 py-3 rounded-xl shadow-sm hover:bg-blue-700 transition-all duration-300"
+              >Objednat se</a
+            >
+            <a
+              href="#sluzby"
+              class="bg-white border border-slate-300 px-6 py-3 rounded-xl shadow-sm hover:border-slate-500 hover:text-slate-900 transition-all duration-300"
+              >Naše služby</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="sluzby" class="max-w-6xl mx-auto px-4 py-8">
+        <div class="grid md:grid-cols-2 gap-6">
+          <a
+            href="chirurgie.html"
+            class="bg-white rounded-2xl shadow-sm p-8 hover:shadow-md hover:-translate-y-1 transition-all duration-300 block"
+          >
+            <h2 class="text-2xl font-semibold text-blue-700">Chirurgie</h2>
+            <ul class="mt-5 space-y-2 text-slate-700">
+              <li>Ambulantní zákroky</li>
+              <li>Ošetření úrazů</li>
+              <li>Chirurgické konzultace</li>
+            </ul>
+          </a>
+
+          <a
+            href="rehabilitace.html"
+            class="bg-white rounded-2xl shadow-sm p-8 hover:shadow-md hover:-translate-y-1 transition-all duration-300 block"
+          >
+            <h2 class="text-2xl font-semibold text-green-700">Rehabilitace</h2>
+            <ul class="mt-5 space-y-2 text-slate-700">
+              <li>Fyzioterapie</li>
+              <li>Fyzikální léčba</li>
+              <li>Individuální přístup</li>
+            </ul>
+          </a>
+        </div>
+      </section>
+
+      <section class="max-w-6xl mx-auto px-4 py-8">
+        <div class="bg-white rounded-2xl shadow-sm p-8 md:p-10">
+          <p class="text-lg text-slate-700 leading-relaxed">
+            Poskytujeme zdravotní péči s důrazem na individuální přístup a propojení odborností.
+            Naším cílem je nejen léčba, ale i prevence a návrat pacienta do běžného života co nejrychleji.
+          </p>
+        </div>
+      </section>
+
+      <section class="max-w-6xl mx-auto px-4 py-12">
+        <div class="rounded-2xl bg-blue-600 text-white p-8 md:p-10 shadow-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <h2 class="text-2xl md:text-3xl font-semibold">Objednejte se na vyšetření ještě dnes</h2>
+          <a
+            href="kontakt.html"
+            class="bg-white text-blue-700 px-6 py-3 rounded-xl font-medium hover:bg-blue-50 transition-all duration-300"
+            >Objednat se</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-white mt-10">
+      <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-slate-600">
+        <p>adresa</p>
+        <p>telefon</p>
+        <p>email</p>
+        <p>ordinační hodiny</p>
+      </div>
+    </footer>
+  </body>
+</html>
